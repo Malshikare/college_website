@@ -1,0 +1,61 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: rgb(139, 136, 136);
+  color: black;
+}
+.footer div {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.footer_border div {
+  border-right: dotted black 2px;
+}
+.footer_border {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.clg_info {
+  padding-top: 10px;
+}
+.email {
+  text-decoration: none;
+  color: black;
+}
+.clg_link {
+  text-decoration: none;
+  color: black;
+}
+.imp_links {
+  padding-top: 15px;
+  line-height: 30px;
+}
+.climate {
+  padding-top: 80px;
+}
+.clg_logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.imgs {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.title {
+  font-size: 21px;
+  font-weight: 700;
+}
+.logo_footer {
+  background-color: rgb(39, 38, 38);
+  padding-top: 10px;
+}
+.copyright {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.para {
+  font-size: 20px;
+}
